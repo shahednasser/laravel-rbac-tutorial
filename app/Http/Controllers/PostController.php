@@ -50,7 +50,7 @@ class PostController extends Controller
         /** @var Post $post */
         if ($id) {
             $post = Post::query()->find($id);
-            if (!$post || ($post->user->id !== $user->id && !$user->can('edit', $post) && !$user->can('view', $post))) {
+            if (!$post || ($post->user->id !== $user->id && !$user->can('edit', $post))) {
                 return back()->withErrors(['post' => __('Post does not exist')]);
             }
         } else {
