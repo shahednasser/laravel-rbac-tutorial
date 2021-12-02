@@ -1,6 +1,6 @@
 # Code for Laravel RBAC Tutorial
 
-This repository holds the code for Laravel RBAC tutorial.
+This repository holds the code for the [Laravel RBAC tutorial](https://blog.shahednasser.com/implementing-rbac-in-laravel-tutorial/).
 
 ## Installation
 
